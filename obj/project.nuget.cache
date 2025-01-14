@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yx4aZe0R0W4=",
+  "dgSpecHash": "A8hI0UIKPGQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\RobotProject.csproj",
+  "projectFilePath": "c:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\RobotProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wxsse\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\wxsse\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\RobotProject.csproj": {}
+    "c:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\RobotProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\RobotProject.csproj": {
+    "c:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\RobotProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\RobotProject.csproj",
+        "projectUniqueName": "c:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\RobotProject.csproj",
         "projectName": "RobotProject",
-        "projectPath": "C:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\RobotProject.csproj",
+        "projectPath": "c:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\RobotProject.csproj",
         "packagesPath": "C:\\Users\\wxsse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\obj\\",
+        "outputPath": "c:\\Users\\wxsse\\Documents\\GitHub\\RobotProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wxsse\\AppData\\Roaming\\NuGet\\NuGet.Config"

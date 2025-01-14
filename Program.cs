@@ -27,6 +27,7 @@ var simpleMqttClient = new SimpleMqttClient(new()
             Password = password
 });
 
+builder.Services.AddSingleton<AppState>();
 // Register the Simple MQTT client as an object in the dependency injection container
 builder.Services.AddSingleton(simpleMqttClient); 
 

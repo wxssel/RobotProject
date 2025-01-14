@@ -1,0 +1,33 @@
+﻿@page "/"
+@inject AppState AppState
+
+<h1>Hier kan je alles zien over de robot zelf</h1>
+
+<!-- Weergave van het batterijpercentage -->
+<div style="position: fixed; top: 10px; right: 10px; padding: 10px; background: lightgray; border-radius: 5px;">
+    BatterijPercentage: <b>@batteryPercentage</b> <!-- Het daadwerkelijke batterijpercentage -->
+</div>
+
+@code {
+    private string batteryPercentage = "0%"; // Standaard batterijpercentage
+
+    protected override void OnInitialized()
+    {
+        // Wanneer de batterij verandert, werk het percentage bij
+        AppState.OnChange += UpdateBatteryPercentage;
+        UpdateBatteryPercentage(); // Initialiseer met het huidige percentage
+    }
+
+    private void UpdateBatteryPercentage()
+    {
+        // Haal het nieuwste percentage uit AppState en werk de schermweergave bij
+        batteryPercentage = AppState.BatteryPercentage;
+        InvokeAsync(StateHasChanged); // Dit zorgt ervoor dat de UI wordt vernieuwd
+    }
+
+    public void Dispose()
+    {
+        // Stop met luisteren naar updates wanneer de pagina wordt afgesloten
+        AppState.OnChange -= UpdateBatteryPercentage;
+    }
+}

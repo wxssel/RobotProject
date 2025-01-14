@@ -72,3 +72,4 @@ c:\Users\wxsse\Documents\GitHub\RobotProject\obj\Debug\net8.0\refint\RobotProjec
 c:\Users\wxsse\Documents\GitHub\RobotProject\obj\Debug\net8.0\RobotProject.pdb
 c:\Users\wxsse\Documents\GitHub\RobotProject\obj\Debug\net8.0\RobotProject.genruntimeconfig.cache
 c:\Users\wxsse\Documents\GitHub\RobotProject\obj\Debug\net8.0\ref\RobotProject.dll
+c:\Users\wxsse\Documents\GitHub\RobotProject\obj\Debug\net8.0\RobotProject.sourcelink.json
